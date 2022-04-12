@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:#a455d5 ;
+  }
+  
+  .header {
+    background-color:#eeeeee ;
+    color: #000000;
+    border-bottom: 3px solid #fcfcfc;
+    font-size: 12px;
+    width: auto;
+    height: 60px;
+    
+    
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    
+
+  }
+  
+  .header .container {
+      width: 1250px;
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center
+    ;
+
+  }
+  
+  .navbar {
+   display: flex;
+   list-style: none;
+   width: 400px;
+   justify-content: space-between; 
+   align-items: center;
+   
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000000;
+ 
+  }
+  
+  .agora {
+    font-weight: bold;
+  }
+  
+
+  
+  .banner .container {
+      margin-top: 5px;
+      font-family: monospace;
+    height: 600px;
+    display: flex;
+    color: white;
+    align-self: flex-end;
+    flex-direction: column;
+    margin-top: 150px;
+    
+    
+  }
+  .imgdiv1{
+     margin-left: 550px;
+     margin-top: -500px;
+  }
+  .imgdiv1 img:hover{
+    transform: scale(130%,130%);
+    transition-duration: 1s;
+    cursor: pointer;
+  }
+  
+  .banner .container.login {
+    justify-content: center;
+    
+  }
+  
+  .banner p {
+   font-size: 24px;
+   width: 290px;
+   align-items: center;
+  }
+
+  .container2{
+      background-color: white;
+      height: 450px;
+      justify-content: space-around;
+      align-items: center;
+      display: flex;
+  }
+  
+ 
+  
+  .footer {
+    background-color: #a455d5;
+    color: rgb(238, 238, 238);
+     height: 100px;
+    margin-top: 90px;
+    font-family: monospace;
+    
+  }
+  
+  .footer .container {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .card {
+    background-color: #ffffff;
+    color:#000000;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    border-style:groove;
+    margin-top: -300px;
+    margin-left: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  }
+  
+  .card h2 {
+    margin: 0;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 300px;
+    
+  }
+  
+  form label {
+    margin-top: 8px;
+    
+  }
+  
+  form input {
+    margin-top: 8px;
+    outline: 3px solid #cf3cf4;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+   
+  }
+  
+  form button {
+   margin-top: 50px;
+   background-color: #5e1263;
+   color: white;
+   padding: 10px 15px;
+   width: 120px;
+   align-self: center;
+   font-size: 18px;
+   border: 0;
+   border-radius: 30px;
+   cursor: pointer;
+  
+  }
+
+  /* cadastro */
+
+  .banner .container.cadastro {
+    justify-content: center;
+}
+
+.card2{
+    background-color: #ffffff;
+    color:#000000;
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    border-style:groove;
+    margin-top: -100px;
+    margin-left: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+
+}
+
+form .form2{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 300px;
+
+
+
+}
+
+form .form2 input {
+    margin-top: 8px;
+    outline: 3px solid #cf3cf4;
+    border: 0;
+    padding: 8px;
+    border-radius: 10px;
+   
+  }
+
+  form .form2 button {
+    margin-top: 10px;
+    background-color: #5e1263;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+   
+   }
+ 
